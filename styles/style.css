@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+
+.logo {
+    font-size: 28px;
+    color: white;
+}
+
+.duck {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: rgb(174, 174, 222);
+    transition: .3s;
+}
+
+.navbar_header {
+    background-color: brown;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+section {
+    flex: 1 0 auto;
+}
+
+.footer {
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(13, 60, 107);
+    padding: 30px 0;
+    margin-bottom: 0;
+    flex: 0 0 auto;
+}
+
+.footer_div {
+    padding-left: 3%;
+    font-size: 15px;
+}
+
+.duck_img {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.duck_img img {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.overlay {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.632);
+    z-index: 2;
+    position: absolute;
+}
+
+.duck_img_text {
+    padding-right: 50%;
+    z-index: 3;
+    font-size: 30px;
+}
+
+.text_second {
+    padding-left: 23%;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about_duck {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+.info_about_duck {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.duck_image_about {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.duck_image_about img {
+    position: absolute;
+}
+
+.duck_text_about {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 28%;
+}
+
+.contact_duck {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 40px;
+}
+
+.contact_duck_text {
+    text-align: center;
+    padding-top: 1%;
+    font-size: 15px;
+}
+
+.contact_duck_variables {
+    padding-top: 1%;
+    font-size: 30px;
+}
+
+.contact_duck_img {
+    padding-top: 5%;
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.contact_duck_img img {
+    max-width: 700px;
+    max-height: 700px;
+    position: absolute;
+}
+
+.contact_duck_text_img {
+    text-align: center;
+    padding-bottom: 28%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.help_duck {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.help_duck_text {
+    text-align: center;
+    padding-top: 2%;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.tip_info {
+    padding-top: 4%;
+    font-size: 22px;
+}
+
+.tip_info_proceed {
+    text-align: center;
+    padding-top: 1%;
+    font-size: 23px;
+}
+
+.tip_duck {
+    height: 20vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.tip_duck img {
+    min-width: 100px;
+    min-height: 100px;
+    position: absolute;
+}
